@@ -18,6 +18,9 @@
 
 	if(mysqli_num_rows($result) > 0) {
 
+
+		$temp_array[] = $rows; // I edited here
+
 		while($rows = mysqli_fetch_assoc($result)) {
 
 			$temp_array[] = $rows;
