@@ -1,7 +1,7 @@
 <?php
 	include 'connectdb.php';
 	include 'http.php';
-
+//we made changes
 	$temp_array = array();
 	
     $postdata = file_get_contents("php://input");
